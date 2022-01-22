@@ -8,7 +8,7 @@
 <div class="container">
     <div class="row top-row">
         <div class="col-xs-12 row end-xs">
-            <a routerLink="/students" color="primary" mat-raised-button> 
+            <a routerLink="/students" color="primary" mat-raised-button>
                 <mat-icon>chevron_left</mat-icon>
                 Go Back
             </a>
@@ -86,7 +86,10 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
+                      <div class="row between-xs">
                         <button mat-raised-button color="primary" (click)="onUpdate()">Save</button>
+                        <button mat-raised-button color="warn" (click)="onDelete()">Delete</button>
+                      </div>
                     </div>
                 </div>
             </form>
